@@ -10,14 +10,25 @@
 	</head>
 	<body>
 		<div class="container">
+			<div class="info-ctn">
 			<h1 class="city-ctn">City: <span class="city"></span></h1>
 			<h2>Temperature: <span class="temperature"></span></h2>
 			<h2>High: <span class="high"></span></h2>
+			<h2>Low: <span class="low"></span></h2>
+			<h2>Condition: <span class="condition"></span></h2>
+			<h2>Description: <span class="description"></span></h2>
 		</div>
-		<div class="city-name-input">
-			<label for="fcity">City Name</label>
-			<input type="text" name="fcity" id="fcity" />
-			<input type="submit" id="submit"></input>
+		</div>
+		<br>
+		<div class="form-ctn">
+			<fieldset>
+				<legend>Search</legend>
+			<form action="" method="get">
+				<label for="fcity"></label>City</label>
+				<input type="text" name="city-location" id="fcity" placeholder="Seoul" required>
+				<input type="submit" value="Search" id="submit">
+			</form>
+		</fieldset>
 		</div>
 	</body>
 </html>

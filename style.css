@@ -1,0 +1,26 @@
+body {
+	display: inline-block;
+}
+
+.container {
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 800px;
+	height: 600px;
+	background-color: aqua;
+	border: 1px solid black;
+}
+
+.info-ctn {
+	border: 2px solid red;
+	display: flex;
+	flex-direction: column;
+	margin: 50px 60px;
+}
